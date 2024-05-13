@@ -38,19 +38,21 @@
 }
 .container {
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 100vh;
 }
 
+.form-container {
+  width: 300px;
+  border: 5px solid #ccc;
+  padding: 20px;
+}
+
 .form {
   display: flex;
   flex-direction: column;
-  align-items: center;
   gap: 10px;
-  border: 5px solid #060101; /* Add border to the form */
-  padding: 20px; /* Add padding for spacing */
 }
 
 .input-container {
@@ -60,5 +62,8 @@
 
 button {
   margin-top: 10px;
+  align-self: flex-end; 
 }
-
+.textAdd{
+  background-color: blue;
+}
